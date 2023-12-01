@@ -1,0 +1,102 @@
+h1 {
+    color: #002A32;
+}
+body {
+    background-color: bisque;
+    color: #474044;
+    font-size: 36px;
+    word-spacing: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    color: #E56399;
+    text-transform: uppercase;
+}
+
+.avatar {
+    border-radius: 20%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+    background-color: #B8BEDD;
+    border-radius: 24px;
+    padding-left: 20px;
+    padding-top: 5px;
+    border: 2px #F0E6EF solid;
+    margin: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.list li:hover{
+background-color: #EFC3E6;
+}
+
+.contacts li:hover {
+background-color: #EFC3E6;
+}
+
+.table {
+    width: 100%;
+}
+
+.table tr:nth-child(1) th {
+    background-color: #FED4E7;
+}
+
+a {
+    color: #474044;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a:active {
+    color: #E56399;
+}
+
+.contacts {
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.contacts li {
+    float: left;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.about {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+    word-spacing: 10px;
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 5px;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+
+    .title {
+        color: #E56399;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    .avatar {
+        width: 150px;
+        height: 170px;
+    }
+}
